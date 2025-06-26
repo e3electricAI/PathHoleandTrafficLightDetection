@@ -1,0 +1,23 @@
+description: Ultralytics best model trained on /content/24thMarchTSP-1/data.yaml
+author: Ultralytics
+date: '2025-03-31T06:40:32.060933'
+version: 8.3.99
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: Bump
+  1: Go
+  2: Pothole
+  3: Stop
+  4: Wait
+args:
+  batch: 1
+  half: false
+  int8: false
+  nms: false
